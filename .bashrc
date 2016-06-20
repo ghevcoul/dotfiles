@@ -8,7 +8,10 @@ purple="\e[0;35m"
 
 # Set bash prompt to show current time, hostname, and path using above colours
 PS1="\[$cyan\][\t]\[$noColor\] \[$blue\]\u@`hostname`\[$noColor\] \[$purple\]\w\[$noColor\]\n \[$green\]$\[$noColor\] "
-#PS1="[\t] \W $ "
 
-alias ls="ls -AhG"
-
+if [ `uname` == "Darwin" ]
+  then
+    alias ls="ls -AhG"
+else
+    alias ls="ls -Ah --color=auto"
+fi
