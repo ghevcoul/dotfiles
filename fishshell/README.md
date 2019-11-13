@@ -1,1 +1,1 @@
-To setup use of fishshell, place these files at `~/.config/fish/`
+To setup use of [fishshell](http://fishshell.com/), place these files at `~/.config/fish/`
