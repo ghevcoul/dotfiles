@@ -1,0 +1,15 @@
+[user]
+        name = Gavin Heverly-Coulson
+        email = <insert correct email here>
+[core]
+        pager = delta
+
+[delta]
+        dark = true
+        theme = "zenburn"
+
+[interactive]
+        diffFilter = delta --color-only
+
+[pull]
+        rebase = false
