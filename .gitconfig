@@ -1,12 +1,18 @@
 [user]
         name = Gavin Heverly-Coulson
         email = <insert correct email here>
+
+[init]
+        defaultBranch = main
+        
 [core]
+        # https://github.com/dandavison/delta
         pager = delta
 
 [delta]
+        line-numbers = true
         dark = true
-        theme = "zenburn"
+        syntax-theme = "zenburn"
 
 [interactive]
         diffFilter = delta --color-only
