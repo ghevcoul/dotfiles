@@ -19,6 +19,8 @@ function fish_prompt --description 'Write out the prompt'
     end
 
     # Display current working directory, with a newline
+    # To display the full path, instead of abbreviated directory names 
+    # add 'set -g fish_prompt_pwd_dir_length 0' to ~/.config/fish/config.fish
     set_color -o $fish_color_command
     echo (prompt_pwd)
 
