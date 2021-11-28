@@ -8,6 +8,9 @@
 [core]
         # https://github.com/dandavison/delta
         pager = delta
+	# Add a global exclude file
+        # https://0xmachos.com/2020-01-22-Eradicating-.DS_Store-From-Git/
+        excludesfile = ~/.gitignore
 
 [delta]
         line-numbers = true
