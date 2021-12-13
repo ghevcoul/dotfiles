@@ -12,10 +12,15 @@
         # https://0xmachos.com/2020-01-22-Eradicating-.DS_Store-From-Git/
         excludesfile = ~/.gitignore
 
+# Config for delta pager
 [delta]
         line-numbers = true
         dark = true
         syntax-theme = "zenburn"
+	
+# Use delta specific merge conflict display
+[merge]
+        conflictstyle = diff3
 
 [interactive]
         diffFilter = delta --color-only
